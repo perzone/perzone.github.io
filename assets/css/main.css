@@ -2383,7 +2383,7 @@ input, select, textarea {
 						}
 
 						#header nav ul li.submenu > a:before {
-							content: '\f107';
+							/* content: '\f107'; */
 							margin-right: 0.65em;
 						}
 
@@ -2405,6 +2405,12 @@ input, select, textarea {
 			-ms-animation: reveal-header 0.5s;
 			animation: reveal-header 0.5s;
 		}
+
+		#logo.log {
+			width:126px;
+			height:35px;
+		}
+
 
 		#header.alt {
 			-moz-animation: none;
@@ -2546,7 +2552,7 @@ input, select, textarea {
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+			background: rgba(72, 121, 134, 0.336);
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
